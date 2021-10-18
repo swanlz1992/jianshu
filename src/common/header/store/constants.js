@@ -1,0 +1,6 @@
+export const addClassType = "header/add_class_type"
+export const removeClassType = "header/remove_class_type"
+export const getListType = "header/get_list_type"
+export const handleMouseType = "header/handle_mouse_type"
+export const mouseLeaveType = "header/mouse_leave_type"
+export const pageChangeType = "header/page_change"

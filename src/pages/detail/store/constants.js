@@ -1,0 +1,1 @@
+export const detailType = "detail_type"
