@@ -7,6 +7,7 @@ export const Nav = styled.div`
   height: 58px;
   width: 100%;
   border-bottom: 1px solid #e7e7e7;
+  // background:red;
 `;
 export const Logo = styled.div`
   display: block;
@@ -124,7 +125,6 @@ export const Search = styled.input.attrs({
   }
 `;
 export const SearchContent = styled.div`
-  index: 1;
   width: 240px;
   position: absolute;
   top: 56px;

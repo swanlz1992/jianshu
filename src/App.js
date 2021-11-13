@@ -1,9 +1,11 @@
+// 基本
 import React from "react"; 
+// 数据
 import store from "./store";
 import { Provider } from "react-redux";
 // 路由
 import { BrowserRouter, Route } from "react-router-dom";
-
+// 文件
 import Header from "./common/header";
 import Home from "./pages/home";
 // 如果detail 是一个异步组件,需要这样写
@@ -31,6 +33,5 @@ const App = () => {
       </Provider>
     </div>
   );
-
 }
 export default App;

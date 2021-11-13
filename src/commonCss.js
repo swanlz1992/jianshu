@@ -1,5 +1,8 @@
 import { createGlobalStyle } from "styled-components";
 export const Globalstyle = createGlobalStyle`
+    body {
+        background:pink;
+    }
     @font-face {
         font-family: "iconfont"; /* Project id 2842990 */
         src: url('./iconfont.eot?t=1632979432946'); /* IE9 */
@@ -14,7 +17,7 @@ export const Globalstyle = createGlobalStyle`
         font-style: normal;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
-      }
+    }
       
     
     html, body, div, span, applet, object, iframe,
